@@ -1,4 +1,10 @@
 import streamlit as st
-from salaryprediction import show_predict_page
+
+try:
+    from predict_page import show_predict_page
+except ImportError:
+    pass
+
 
 show_predict_page()
+
