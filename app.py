@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 current_directory = pd.__file__
-st.write("Hello")
+st.text(f"Hello")
 
 # Get the parent directory
 parent_directory = os.path.dirname(current_directory)
@@ -15,7 +15,7 @@ directories_in_parent = [d for d in os.listdir(parent_directory) if os.path.isdi
 
 # Print the list of directories
 for directory in directories_in_parent:
-    st.write(directory)
+    st.text(directory)
 
 show_predict_page()
 
