@@ -3,6 +3,9 @@ import pandas as pd
 import pickle
 import numpy as np
 #import sklearn
+import subprocess
+subprocess.run(["pip", "install", "-r", "requirements.txt"])
+
 
 def load_model():
     with open('saved_steps2.pkl', 'rb') as file:
