@@ -8,7 +8,7 @@ subprocess.run(["pip", "install", "-r", "requirements.txt"])
 
 # Display the Streamlit version
 st.write(f"Streamlit Version: {st.__version__}")
-st.write(f"Sklearn Version: {sklearn.__version__}")
+#st.write(f"Sklearn Version: {sklearn.__version__}")
 
 
 def load_model():
