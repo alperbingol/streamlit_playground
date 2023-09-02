@@ -6,6 +6,9 @@ import numpy as np
 import subprocess
 subprocess.run(["pip", "install", "-r", "requirements.txt"])
 
+# Display the Streamlit version
+st.write(f"Streamlit Version: {st.__version__}")
+
 
 def load_model():
     with open('saved_steps2.pkl', 'rb') as file:
