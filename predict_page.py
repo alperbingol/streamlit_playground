@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
-import sklearn
+#import sklearn
 import subprocess
 subprocess.run(["pip", "install", "-r", "requirements.txt"])
 
