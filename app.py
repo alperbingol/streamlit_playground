@@ -15,7 +15,7 @@ directories_in_parent = [d for d in os.listdir(parent_directory) if os.path.isdi
 
 # Print the list of directories
 for directory in directories_in_parent:
-    print(directory)
+    st.write(directory)
 
 show_predict_page()
 
