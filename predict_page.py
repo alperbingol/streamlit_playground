@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
+import sklearn
 
 def load_model():
     with open('saved_steps2.pkl', 'rb') as file:
