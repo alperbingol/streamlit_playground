@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 
 
+
 def shorten_categories(categories, cutoff):
     categorical_map = {}
     for i in range(len(categories)):

@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import numpy as np
 #import sklearn
-#import subprocess
-#subprocess.run(["pip", "install", "-r", "requirements.txt"])
+import subprocess
+subprocess.run(["pip", "install", "-r", "requirements.txt"])
 
 # Display the Streamlit version
 #st.write(f"Streamlit Version: {st.__version__}")
