@@ -1,6 +1,6 @@
 # Machine Learning Web App with Streamlit
 
-![alt text](PredictionPage.png)
+![alt text](PredictionPage.PNG)
 
 ## Introduction
 
