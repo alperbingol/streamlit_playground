@@ -1,6 +1,6 @@
 # Machine Learning Web App with Streamlit
 
-![App Screenshot](https://example.com/app_screenshot.png)
+![App Screenshot](https://github.com/alperbingol/streamlit_playground/blob/main/PredictionPage.PNG)
 
 ## Introduction
 
